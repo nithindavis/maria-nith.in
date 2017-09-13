@@ -44,12 +44,43 @@ table {
 /************************************/
 
 body {
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
-.top img {
+.cover img {
   object-fit: cover;
+  min-height: 400px;
+  max-height: 900px;
+}
+.invite {
+  height: 900px;
+  background-color: #88c7e1;
+}
+.invite h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 72px;
+  color: #e24747;
+  text-align: center;
+  padding-top: 200px;
+}
+.invite p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  line-height: 32px;
+  color: #35606d;
+
+  text-align: center;
+
+  padding-top: 100px;
+  width: 70%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.map {
+  height: 700px;
 }
 
 
@@ -74,7 +105,7 @@ img {
   width: 100% ;
 }
 
-.tau {
+.consta {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,1c1810+23,322835+51,111951+100 */
   background: #000000; /* Old browsers */
   background: -moz-linear-gradient(top, #000000 0%, #1c1810 23%, #322835 51%, #111951 100%); /* FF3.6-15 */
@@ -83,7 +114,7 @@ img {
   height: 700px;
   overflow: hidden;
 }
-.tau img {
+.consta img {
   height: 500px;
   opacity: 0.75;
   -webkit-animation: spin 300s infinite linear;
