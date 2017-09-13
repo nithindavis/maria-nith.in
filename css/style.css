@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,42 +11,48 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
+/************************************/
 
 body {
   font-family: Arial;
-
 }
+
+
+.top img {
+  object-fit: cover;
+}
+
+
 
 
 table,tr,td,th {
@@ -71,4 +72,53 @@ table {
 
 img {
   width: 100% ;
+}
+
+.tau {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,1c1810+23,322835+51,111951+100 */
+  background: #000000; /* Old browsers */
+  background: -moz-linear-gradient(top, #000000 0%, #1c1810 23%, #322835 51%, #111951 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #000000 0%,#1c1810 23%,#322835 51%,#111951 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #000000 0%,#1c1810 23%,#322835 51%,#111951 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#111951',GradientType=0 ); /* IE6-9 */
+  height: 700px;
+  overflow: hidden;
+}
+.tau img {
+  height: 500px;
+  opacity: 0.75;
+  -webkit-animation: spin 300s infinite linear;
+  position: relative;
+  top: 100px;
+}
+
+@-webkit-keyframes spin {
+  0%  {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg);}
+}
+
+.star_info {
+  background-color: #cc3366;
+  color: #eee;
+  font-size: 14px;
+  line-height: 20px;
+
+  padding: 10px;
+  width: 360px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  float: right;
+}
+
+footer {
+  background-color: #87d2d6;
+  height: 600px;
+}
+#buri_text {
+  height: 200px;
+  margin-top: 100px;
+}
+#buri_icon {
+  height: 100px;
 }
