@@ -105,20 +105,29 @@ body {
 
 
 
-table,tr,td,th {
+table{
   background-color: #f8f9fa;
-  border: 1px solid #eee;
+  /*border: 1px solid #eee;*/
   border-collapse: collapse;
   font-family: 'Roboto Mono', monospace;
   font-size: 8px;
   text-align: left;
-  padding: 4px;
+  padding: 2px;
 }
-th {
-  background-color: #ccc;
+th,th a{
+  background-color: #333;
+  color: #fff;
 }
 table {
   width: 100%;
+}
+td {
+  border-left: 1px solid #ccc;
+  background-color: #eee;
+}
+th td {
+  border-left: none;
+  background-color: #333;
 }
 
 img {
