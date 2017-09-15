@@ -54,8 +54,9 @@ body {
   max-height: 900px;
 }
 .invite {
-  height: 900px;
+  min-height: 900px;
   background-color: #88c7e1;
+  padding: 20px;
 }
 .invite h1 {
   font-family: 'Great Vibes', cursive;
@@ -122,8 +123,8 @@ table {
   width: 100%;
 }
 td {
-  border-left: 1px solid #ccc;
-  background-color: #eee;
+  border-left: 1px solid #eee;
+  background-color: #fafafa;
 }
 th td {
   border-left: none;
@@ -143,14 +144,14 @@ img {
   background: -webkit-linear-gradient(top, #000000 0%,#1c1810 23%,#322835 51%,#111951 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #000000 0%,#1c1810 23%,#322835 51%,#111951 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   height: 900px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   position: relative;
 }
 .consta img {
   height: 500px;
   opacity: 0.75;
   -webkit-animation: spin 200s infinite linear;
-  position: relative;
+  position: absolute;
   top: 250px;
 }
 
@@ -165,10 +166,15 @@ img {
   font-size: 14px;
   line-height: 20px;
 
+
+
   padding: 10px;
   width: 360px;
-  position: relative;
+  height: 100px;
+
+  position: absolute;
   float: right;
+  vertical-align: bottom;
   bottom: 10px;
   right: 10px;
 }
