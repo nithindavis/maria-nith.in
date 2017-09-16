@@ -61,20 +61,20 @@ body {
   background-attachment: fixed;
   background-size: cover;
 
-  height: 700px;
+  height: 600px;
 
 }
 .invite {
-  min-height: 900px;
-  background-color: #88c7e1;
+  min-height: 750px;
+  background-color: #fffdde;
   padding: 20px;
 }
 .invite h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 72px;
-  color: #e24747;
+  color: #757f96;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .invite p {
   font-family: 'Roboto Mono', monospace;
@@ -100,7 +100,7 @@ body {
 .RSVP li{
   display:inline-flex;
   flex-direction: row;
-  background-color: #75b7cc;
+  background-color: #f7f5d6;
   padding: 10px;
   margin: 5px;
   color: #35606d;
