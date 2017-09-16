@@ -64,6 +64,17 @@ body {
   height: 600px;
 
 }
+@media (max-width: 767px) {
+  .cover {
+    background-image: url("../img/cover_1.jpg");
+    background-position: top;
+    background-attachment: scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 380px;
+  }
+}
 .invite {
   min-height: 750px;
   background-color: #fffdde;
