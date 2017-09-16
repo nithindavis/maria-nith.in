@@ -67,7 +67,11 @@ body {
 .invite {
   min-height: 750px;
   background-color: #fffdde;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
   padding: 20px;
+
+
 }
 .invite h1 {
   font-family: 'Great Vibes', cursive;
@@ -251,7 +255,7 @@ img {
 }*/
 
 footer {
-  background-color: #88c7e1;
+  background-color: #e3faff;
   height: 900px;
 }
 
