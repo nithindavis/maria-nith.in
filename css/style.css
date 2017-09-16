@@ -64,7 +64,7 @@ body {
   height: 600px;
 
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .cover {
     background-image: url("../img/cover_1.jpg");
     background-position: top;
