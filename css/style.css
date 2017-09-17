@@ -55,6 +55,14 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
   height: 100%;
 }
+.light_gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.05+96,0.2+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 96%, rgba(0,0,0,0.2) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
+height: 750px;
+}
 .cover  {
   background-image: url("../img/cover_1.jpg");
   background-position: top;
@@ -80,14 +88,14 @@ body {
   background-color: #fffdde;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
-  padding: 20px;
+  /*padding: 20px;*/
 
 
 }
 .invite h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 72px;
-  color: #757f96;
+  color: #414c8c;
   text-align: center;
   padding-top: 100px;
 }
@@ -115,7 +123,7 @@ body {
 .RSVP li{
   display:inline-flex;
   flex-direction: row;
-  background-color: #f7f5d6;
+  background-color: #f9f7de;
   padding: 10px;
   margin: 5px;
   color: #35606d;
@@ -126,7 +134,7 @@ body {
 }
 
 .map {
-  height: 700px;
+  height: 750px;
 }
 
 
@@ -172,6 +180,10 @@ th td {
   border-left: none;
   background-color: #333;
 }
+tr,td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 img {
   width: 100% ;
@@ -203,7 +215,7 @@ img {
 }
 
 .star_info {
-  background-color: #e24747;
+  background-color: #333;
   color: #eee;
   font-size: 14px;
   line-height: 20px;
@@ -224,7 +236,7 @@ img {
   background-image: url("../img/door.jpg");
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 750px;
 }
 .join_us {
   background-color: #e24747;
@@ -267,7 +279,7 @@ img {
 
 footer {
   background-color: #e3faff;
-  height: 900px;
+  height: 750px;
 }
 
 .buri {
