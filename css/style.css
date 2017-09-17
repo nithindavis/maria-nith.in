@@ -57,11 +57,11 @@ body {
 }
 .light_gradient {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.05+96,0.2+100 */
-background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 96%, rgba(0,0,0,0.2) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
-height: 750px;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 96%, rgba(0,0,0,0.2) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
+  height: 750px;
 }
 .cover  {
   background-image: url("../img/cover_1.jpg");
@@ -95,7 +95,7 @@ height: 750px;
 .invite h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 72px;
-  color: #414c8c;
+  color: #e24747;
   text-align: center;
   padding-top: 100px;
 }
@@ -148,10 +148,10 @@ height: 750px;
 
 }
 .break_title {
-  background-color: #ccc;
+  background-color: #333;
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
-  color: #333;
+  color: #ccc;
   text-align: center;
   padding: 40px;
 
@@ -214,23 +214,44 @@ img {
   100% {-webkit-transform: rotate(360deg);}
 }
 
-.star_info {
-  background-color: #333;
-  color: #eee;
-  font-size: 14px;
-  line-height: 20px;
+@media (min-width: 768px) {
+  .star_info {
+    background-color: #e24747;
+    color: #eee;
+    font-size: 14px;
+    line-height: 20px;
 
 
 
-  padding: 10px;
-  width: 360px;
-  height: 100px;
+    padding: 10px;
+    width: 360px;
+    height: 100px;
 
-  position: absolute;
-  float: right;
-  vertical-align: bottom;
-  bottom: 10px;
-  right: 10px;
+    position: absolute;
+    float: right;
+    vertical-align: bottom;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .star_info {
+    background-color: #e24747;
+    color: #eee;
+    font-size: 14px;
+    line-height: 20px;
+
+
+
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    float: right;
+    vertical-align: bottom;
+    bottom: 0px;
+  }
 }
 .door {
   background-image: url("../img/door.jpg");
@@ -286,9 +307,9 @@ img {
   margin: auto;
 }
 /*.door img {
-  object-fit: cover;
-  min-height: 400px;
-  max-height: 900px;
+object-fit: cover;
+min-height: 400px;
+max-height: 900px;
 }*/
 
 footer {
@@ -299,6 +320,7 @@ footer {
 .buri {
   font-family: 'Noto Sans', sans-serif;
   font-size: 72px;
+  line-height: 90px;
   color: #e24747;
   text-align: center;
   padding-top: 300px;
