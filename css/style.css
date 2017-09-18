@@ -329,3 +329,12 @@ footer {
   padding-top: 100px;
   height: 100px;
 }
+
+.disclaimer {
+  background-color: #e3faff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 8px;
+  color: #a5b6b9;
+  text-align: right;
+
+}
