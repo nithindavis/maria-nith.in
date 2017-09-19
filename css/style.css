@@ -211,6 +211,7 @@ img {
 @media (min-width: 768px) {
   .star_info {
     background-color: #e24747;
+    font-family: 'Roboto Mono', monospace;
     color: #eee;
     font-size: 14px;
     line-height: 20px;
@@ -231,6 +232,7 @@ img {
 @media (max-width: 767px) {
   .star_info {
     background-color: #e24747;
+    font-family: 'Roboto Mono', monospace;
     color: #eee;
     font-size: 14px;
     line-height: 20px;
