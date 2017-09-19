@@ -61,7 +61,8 @@ body {
   background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.05) 96%,rgba(0,0,0,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#33000000',GradientType=0 ); /* IE6-9 */
-  height: 750px;
+  height: 100%;
+  min-height: 750px;
 }
 .cover  {
   background-image: url("../img/cover_1.jpg");
@@ -347,7 +348,7 @@ footer {
   background-color: #f9fff4;
 }
 .getting_there img {
-  height: 100px;
+  height: 80px;
   padding-top: 100px;
 }
 .getting_there p {
@@ -359,7 +360,8 @@ footer {
   text-align: center;
 
 
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   width: 80%;
   min-width: 300px;
   max-width: 700px;
