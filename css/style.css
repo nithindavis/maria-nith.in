@@ -140,7 +140,7 @@ body {
 
 
 .table_title {
-  background-color: #333;
+  background-color: #2d3152;
   font-family: 'Roboto Mono', monospace;
   font-size: 12px;
   color: #fff;
@@ -148,7 +148,7 @@ body {
 
 }
 .break_title {
-  background-color: #333;
+  background-color: #2d3152;
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
   color: #ccc;
@@ -165,21 +165,14 @@ table{
   text-align: left;
   padding: 2px;
 }
-th,th a{
-  background-color: #333;
+th,td,th a,td a{
+  background-color: #2d3152;
   color: #fff;
 }
 table {
   width: 100%;
 }
-td {
-  border-left: 1px solid #eee;
-  background-color: #fafafa;
-}
-th td {
-  border-left: none;
-  background-color: #333;
-}
+
 tr,td {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -330,11 +323,45 @@ footer {
   height: 100px;
 }
 
+@media (min-width: 768px) {
 .disclaimer {
   background-color: #e3faff;
   font-family: 'Roboto Mono', monospace;
   font-size: 8px;
   color: #a5b6b9;
-  text-align: right;
+  text-align: center;
+}
+}
+@media (max-width: 767px) {
+.disclaimer {
+  background-color: #e3faff;
+  font-family: 'Roboto Mono', monospace;
+  font-size:5px;
+  color: #a5b6b9;
+  text-align: center;
+}
+}
 
+.getting_there {
+  min-height: 750px;
+  background-color: #f9fff4;
+}
+.getting_there img {
+  height: 100px;
+  padding-top: 100px;
+}
+.getting_there p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  line-height: 30px;
+  color: #35606d;
+
+  text-align: center;
+
+
+  padding-top: 100px;
+  width: 80%;
+  min-width: 300px;
+  max-width: 700px;
+  margin: auto;
 }
